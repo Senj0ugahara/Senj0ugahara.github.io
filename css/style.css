@@ -288,6 +288,7 @@ p {
 
 .header__phone-link {
   position: relative;
+  padding-bottom: 2px;
   font-size: 20px;
   line-height: 1;
   color: #fff;
@@ -334,6 +335,7 @@ p {
 .header__item-link {
   position: relative;
   display: block;
+  padding-bottom: 2px;
   font-size: 14px;
   line-height: 1;
   color: #fff;
