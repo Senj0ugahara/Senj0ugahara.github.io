@@ -656,6 +656,7 @@ p {
 }
 
 .numbers-company__form__all-item {
+  position: relative;
   max-height: 376px;
   padding: 10px 0 10px 10px;
   overflow-y: scroll;
