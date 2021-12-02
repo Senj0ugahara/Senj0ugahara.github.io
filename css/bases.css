@@ -150,6 +150,36 @@ p {
   left: 50px;
 }
 
+.form__checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.form__checkbox + .form__label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.form__checkbox + .form__label::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #868686;
+  border-radius: 4px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: center 4px;
+}
+
+.form__checkbox:checked + .form__label::before {
+  background-image: url('/img/icons/check.svg');
+}
+
 /* header */
 .header {
   position: relative;
@@ -525,6 +555,157 @@ p {
 .clients-bases__btn_position {
   display: block;
   margin: 100px auto 0;
+}
+
+/* numbers-company */
+.numbers-company {
+  padding: 90px 0 130px;
+}
+
+.numbers-company__heading {
+  margin-bottom: 85px;
+}
+
+.numbers-company__buttons {
+  display: flex;
+  margin-bottom: 85px;
+  justify-content: center;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.numbers-company__btn {
+  padding: 21px 33px 15px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  color: #1538ab;
+  cursor: pointer;
+}
+
+.numbers-company__btn_active {
+  border: 1px solid #c7c7c7;
+  border-bottom: none;
+  transform: translateY(1px);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #37cd8f;
+}
+
+.numbers-company__form__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numbers-company__form__col:first-child {
+  margin-right: 30px;
+}
+
+.numbers-company__form__block__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.numbers-company__form__num {
+  width: 34px;
+  margin-right: 13px;
+  padding: 7px 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  background: #37cd8f;
+  border-radius: 50%;
+}
+
+.numbers-company__form__view-all {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.numbers-company__form__view-all__text {
+  margin-right: 28px;
+  font-size: 18px;
+  line-height: 1;
+  color: #000;
+}
+
+.numbers-company__form__btn__view-all {
+  font-size: 14px;
+  line-height: 1;
+  color: #1538ab;
+}
+
+.numbers-company__form__input-search {
+  position: relative;
+  width: 570px;
+  padding: 17px 15px 14px 17px;
+  background: url('/img/icons/numbers__company-search.svg') center right no-repeat;
+  background-position-x: 97%;
+  border: none;
+  outline: none;
+  outline-offset: none;
+  border: 1px solid #868686;
+  border-radius: 6px;
+  color: #868686;
+}
+
+.numbers-company__form__all-item {
+  max-height: 376px;
+  padding: 10px 0 10px 10px;
+  overflow-y: scroll;
+  background: #f9f9fa;
+}
+
+.numbers-company__form__item__box {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.numbers-company__form__item__img {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  background: url('/img/icons/number__company-plus.svg');
+}
+
+.numbers-company__form__item__img_open {
+  height: 2px;
+  margin-bottom: 7px;
+  background: url('/img/icons/number__company-plus_open.svg');
+}
+
+.numbers-company__form__box__sub {
+  display: none;
+  flex-direction: column;
+  margin-left: 44px;
+}
+
+.numbers-company__form__box__sub_open {
+  display: flex;
+}
+
+.numbers-company__form__label {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #111;
+}
+
+.numbers-company__form__label_small {
+  font-size: 14px;
+}
+
+.numbers-company__form__checkbox:checked + .numbers-company__form__label {
+  color: #37cd8f;
 }
 
 /* footer */

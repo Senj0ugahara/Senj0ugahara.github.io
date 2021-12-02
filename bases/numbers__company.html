@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOMERA-RF. Онлайн сервис баз</title>
+
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/bases.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <div class="header__left">
+          <a href="" class="header__logo">
+            <img src="/img/logo_dark.svg" alt="NOMERA-RF. Онлайн сервис баз" class="logo__img">
+          </a>
+          <div class="header__bases">
+            <p class="header__desc">
+              Обновление баз: 09.04.2019
+            </p>
+            <p class="header__desc">
+              Количество контактов: 27 065 287
+            </p>
+          </div>
+        </div>
+        <div class="header__right">
+          <div class="header__col">
+            <div class="header__phone">
+              <span class="header__phone-box"></span>
+              <a href="tell:+79334956800" class="header__phone-link_dark">+7 933 495 68 00</a>
+            </div>
+            <div class="header__search">
+              <button class="btn-reset btn__search btn__search_active"></button>
+            </div>
+          </div>
+          <div class="header__col">
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="" class="header__item-link_dark">
+                    Вопросы и ответы
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="" class="header__item-link_dark">
+                    Отзывы
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="" class="header__item-link_dark">
+                    Реквизиты
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="" class="header__item-link_dark">
+                    Личный кабинет
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__content">
+        <nav class="header__nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="" class="header-nav__item-link">
+                Мобильные номера
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__item-link header-nav__item-link_active">
+                Клиентские базы
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__item-link">
+                Номера компаний
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__item-link">
+                Городские номера
+              </a>
+            </li>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__item-link">
+                Email адреса
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="numbers-company">
+      <div class="container">
+        <h2 class="heading numbers-company__heading">
+          Номера компаний
+        </h2>
+        <div class="numbers-company__buttons">
+          <buttion class="btn-reset numbers-company__btn numbers-company__btn_active">
+            Стандартная выборка
+          </buttion>
+          <buttion class="btn-reset numbers-company__btn">
+            Расширенная выборка
+          </buttion>
+        </div>
+        <form action="" class="numbers-company__form__stdr">
+          <div class="numbers-company__form__content">
+            <div class="numbers-company__form__col">
+              <div class="numbers-company__form__block__title">
+                <span class="numbers-company__form__num">1</span>
+                <strong class="numbers-company__form__title">
+                  Выберите города
+                </strong>
+              </div>
+              <div class="numbers-company__form__view-all">
+                <p class="numbers-company__form__view-all__text">
+                  Выберите один или несколько городов
+                </p>
+                <button class="btn-reset numbers-company__form__btn__view-all">
+                  Выбрать все
+                </button>
+              </div>
+              <input type="search" name="Поиск" id="search-reg" placeholder="Начните вводить название города" class="numbers-company__form__input-search">
+              <div class="numbers-company__form__all-item">
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Адыгея" id="REG-AD" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-AD" class="form__label numbers-company__form__label">Адыгея</label>
+                    <div class="numbers-company__form__box__sub">
+                      <input type="checkbox" name="Майкоп" id="SIT-MAJKOP" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="SIT-MAJKOP" class="form__label numbers-company__form__label numbers-company__form__label_small">Майкоп</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Алтай" id="REG-AL" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-AL" class="form__label numbers-company__form__label">Алтай</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Башкортостан" id="REG-BA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-BA" class="form__label numbers-company__form__label">Башкортостан</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Бурятия" id="REG-BU" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-BU" class="form__label numbers-company__form__label">Бурятия</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Дагестан " id="REG-DA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-DA" class="form__label numbers-company__form__label">Дагестан </label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ингушетия" id="REG-IN" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-IN" class="form__label numbers-company__form__label">Ингушетия</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Кабардино-Балкарская" id="REG-KB" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KB" class="form__label numbers-company__form__label">Кабардино-Балкарская</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Калмыкия" id="REG-KL" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KL" class="form__label numbers-company__form__label">Калмыкия</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Карачаево-Черкесская" id="REG-KC" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KC" class="form__label numbers-company__form__label">Карачаево-Черкесская</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Карелия" id="REG-KR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KR" class="form__label numbers-company__form__label">Карелия</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Коми" id="REG-KO" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KO" class="form__label numbers-company__form__label">Коми</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Марий Эл" id="REG-ME" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ME" class="form__label numbers-company__form__label">Марий Эл</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Мордовия" id="REG-MO" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-MO" class="form__label numbers-company__form__label">Мордовия</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Саха (Якутия)" id="REG-SA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SA" class="form__label numbers-company__form__label">Саха (Якутия)</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Северная Осетия - Алания" id="REG-SE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SE" class="form__label numbers-company__form__label">Северная Осетия - Алания</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Татарстан" id="REG-TA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TA" class="form__label numbers-company__form__label">Татарстан</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Тыва" id="REG-TY" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TY" class="form__label numbers-company__form__label">Тыва</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Удмуртская" id="REG-UD" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-UD" class="form__label numbers-company__form__label">Удмуртская</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Хакасия" id="REG-KK" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KK" class="form__label numbers-company__form__label">Хакасия</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Чеченская" id="REG-CE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-CE" class="form__label numbers-company__form__label">Чеченская</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Чувашская" id="REG-CU" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-CU" class="form__label numbers-company__form__label">Чувашская</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Алтайский край" id="REG-ALT" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ALT" class="form__label numbers-company__form__label">Алтайский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Забайкальский край" id="REG-ZAB" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ZAB" class="form__label numbers-company__form__label">Забайкальский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Камчатский край" id="REG-KAM" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KAM" class="form__label numbers-company__form__label">Камчатский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Краснодарский край" id="REG-KDA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KDA" class="form__label numbers-company__form__label">Краснодарский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Красноярский край" id="REG-KYA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KYA" class="form__label numbers-company__form__label">Красноярский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Пермский край" id="REG-PER" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-PER" class="form__label numbers-company__form__label">Пермский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Приморский край" id="REG-PRI" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-PRI" class="form__label numbers-company__form__label">Приморский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ставропольский край" id="REG-STA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-STA" class="form__label numbers-company__form__label">Ставропольский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Хабаровский край" id="REG-KHA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KHA" class="form__label numbers-company__form__label">Хабаровский край</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Амурская область" id="REG-AMU" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-AMU" class="form__label numbers-company__form__label">Амурская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Архангельская область" id="REG-ARK" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ARK" class="form__label numbers-company__form__label">Архангельская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Астраханская область" id="REG-AST" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-AST" class="form__label numbers-company__form__label">Астраханская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Белгородская область" id="REG-BEL" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-BEL" class="form__label numbers-company__form__label">Белгородская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Брянская область" id="REG-BRY" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-BRY" class="form__label numbers-company__form__label">Брянская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Владимирская область" id="REG-VLA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-VLA" class="form__label numbers-company__form__label">Владимирская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Волгоградская область" id="REG-VGG" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-VGG" class="form__label numbers-company__form__label">Волгоградская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Вологодская область" id="REG-VLG" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-VLG" class="form__label numbers-company__form__label">Вологодская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Воронежская область" id="REG-VOR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-VOR" class="form__label numbers-company__form__label">Воронежская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ивановская область" id="REG-IVA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-IVA" class="form__label numbers-company__form__label">Ивановская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Иркутская область" id="REG-IRK" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-IRK" class="form__label numbers-company__form__label">Иркутская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Калининградская область" id="REG-KGD" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KGD" class="form__label numbers-company__form__label">Калининградская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Калужская область" id="REG-KLU" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KLU" class="form__label numbers-company__form__label">Калужская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Кемеровская область" id="REG-KEM" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KEM" class="form__label numbers-company__form__label">Кемеровская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Кировская область" id="REG-KIR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KIR" class="form__label numbers-company__form__label">Кировская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Костромская область" id="REG-KOS" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KOS" class="form__label numbers-company__form__label">Костромская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Курганская область" id="REG-KGN" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KGN" class="form__label numbers-company__form__label">Курганская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Курская область" id="REG-KRS" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KRS" class="form__label numbers-company__form__label">Курская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ленинградская область" id="REG-LEN" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-LEN" class="form__label numbers-company__form__label">Ленинградская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Липецкая область" id="REG-LIP" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-LIP" class="form__label numbers-company__form__label">Липецкая область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Магаданская область" id="REG-MAG" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-MAG" class="form__label numbers-company__form__label">Магаданская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Московская область" id="REG-MOS" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-MOS" class="form__label numbers-company__form__label">Московская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Мурманская область" id="REG-MUR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-MUR" class="form__label numbers-company__form__label">Мурманская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Нижегородская область" id="REG-NIZ" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-NIZ" class="form__label numbers-company__form__label">Нижегородская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Новгородская область" id="REG-NGR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-NGR" class="form__label numbers-company__form__label">Новгородская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Новосибирская область" id="REG-NVS" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-NVS" class="form__label numbers-company__form__label">Новосибирская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Омская область" id="REG-OMS" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-OMS" class="form__label numbers-company__form__label">Омская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Оренбургская область" id="REG-ORE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ORE" class="form__label numbers-company__form__label">Оренбургская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Орловская область" id="REG-ORL" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ORL" class="form__label numbers-company__form__label">Орловская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Пензенская область" id="REG-PNZ" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-PNZ" class="form__label numbers-company__form__label">Пензенская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Псковская область" id="REG-PSK" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-PSK" class="form__label numbers-company__form__label">Псковская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ростовская область" id="REG-ROS" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ROS" class="form__label numbers-company__form__label">Ростовская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Рязанская область" id="REG-RYA" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-RYA" class="form__label numbers-company__form__label">Рязанская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Самарская область" id="REG-SAM" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SAM" class="form__label numbers-company__form__label">Самарская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Саратовская область" id="REG-SAR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SAR" class="form__label numbers-company__form__label">Саратовская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Сахалинская область" id="REG-SAK" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SAK" class="form__label numbers-company__form__label">Сахалинская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Свердловская область" id="REG-SVE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SVE" class="form__label numbers-company__form__label">Свердловская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Смоленская область" id="REG-SMO" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SMO" class="form__label numbers-company__form__label">Смоленская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Тамбовская область" id="REG-TAM" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TAM" class="form__label numbers-company__form__label">Тамбовская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Тверская область" id="REG-TVE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TVE" class="form__label numbers-company__form__label">Тверская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Томская область" id="REG-TOM" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TOM" class="form__label numbers-company__form__label">Томская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Тульская область" id="REG-TUL" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TUL" class="form__label numbers-company__form__label">Тульская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Тюменская область" id="REG-TYU" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-TYU" class="form__label numbers-company__form__label">Тюменская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ульяновская область" id="REG-ULY" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-ULY" class="form__label numbers-company__form__label">Ульяновская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Челябинская область" id="REG-CHE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-CHE" class="form__label numbers-company__form__label">Челябинская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ярославская область" id="REG-YAR" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-YAR" class="form__label numbers-company__form__label">Ярославская область</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Москва" id="REG-MOW" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-MOW" class="form__label numbers-company__form__label">Москва</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Санкт-Петербург" id="REG-SPE" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-SPE" class="form__label numbers-company__form__label">Санкт-Петербург</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Еврейская АО" id="REG-YEV" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-YEV" class="form__label numbers-company__form__label">Еврейская АО</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ненецкий АО" id="REG-NEN" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-NEN" class="form__label numbers-company__form__label">Ненецкий АО</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ханты-Мансийский АО" id="REG-KHM" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-KHM" class="form__label numbers-company__form__label">Ханты-Мансийский АО</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Чукотский АО" id="REG-CHU" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-CHU" class="form__label numbers-company__form__label">Чукотский АО</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Ямало-Ненецкий АО" id="REG-YAN" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="REG-YAN" class="form__label numbers-company__form__label">Ямало-Ненецкий АО</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="numbers-company__form__col">
+              <div class="numbers-company__form__block__title">
+                <span class="numbers-company__form__num">2</span>
+                <strong class="numbers-company__form__title">
+                  Выберите рубрики
+                </strong>
+              </div>
+              <div class="numbers-company__form__view-all">
+                <p class="numbers-company__form__view-all__text">
+                  Выберите одну или несколько рубрик
+                </p>
+                <button class="btn-reset numbers-company__form__btn__view-all">
+                  Выбрать все
+                </button>
+              </div>
+              <input type="search" name="Поиск" id="search-rub" placeholder="Начните вводить название рубрики" class="numbers-company__form__input-search">
+              <div class="numbers-company__form__all-item">
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Аварийные / Справочные / Экстренные службы" id="RUB-1" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-1" class="form__label numbers-company__form__label">Аварийные / Справочные / Экстренные службы</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Автосервис / Автотовары" id="RUB-2" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-2" class="form__label numbers-company__form__label">Автосервис / Автотовары</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Город / Власть" id="RUB-3" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-3" class="form__label numbers-company__form__label">Город / Власть</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Досуг / Развлечение / Общественное питание" id="RUB-4" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-4" class="form__label numbers-company__form__label">Досуг / Развлечение / Общественное питание</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Интернет / Связь / Информационные технологии" id="RUB-5" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-5" class="form__label numbers-company__form__label">Интернет / Связь / Информационные технологии</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Коммунальные / Бытовые / Ритуальные услуги" id="RUB-6" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-6" class="form__label numbers-company__form__label">Коммунальные / Бытовые / Ритуальные услуги</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Компьютеры / Бытовая техника / Офисная техника" id="RUB-7" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-7" class="form__label numbers-company__form__label">Компьютеры / Бытовая техника / Офисная техника</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Аварийные / справочные / экстренные службы" id="RUB-8" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="RUB-8" class="form__label numbers-company__form__label">Культура / Искусство / Религия</label>
+                    <div class="numbers-company__form__box__sub">
+                      <input type="checkbox" name="Антиквариат" id="RUB-8-ANT" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="RUB-8-ANT" class="form__label numbers-company__form__label numbers-company__form__label_small">Антиквариат</label>
+                      <input type="checkbox" name="Багетные мастерские" id="RUB-8-BAG" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="RUB-8-BAG" class="form__label numbers-company__form__label numbers-company__form__label_small">Багетные мастерские</label>
+                      <input type="checkbox" name="Библиотеки" id="RUB-8-BIB" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="RUB-8-BIB" class="form__label numbers-company__form__label numbers-company__form__label_small">Библиотеки</label>
+                      <input type="checkbox" name="Библиотечные коллекторы" id="RUB-8-BIBC" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="RUB-8-BIBC" class="form__label numbers-company__form__label numbers-company__form__label_small">Библиотечные коллекторы</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="" class="footer__privacy">
+        Политика конфиденциальности
+      </a>
+      <ul class="footer__list-soc">
+        <li class="footer__item-soc">
+          <a href="" class="footer__link-soc">
+            <span class="footer__box-soc footer__box-soc--vk"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/js/jquery.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
