@@ -683,7 +683,7 @@ p {
 }
 
 .numbers-company__form__box__sub {
-  display: none;
+  display: flex;
   flex-direction: column;
   margin-left: 44px;
 }
