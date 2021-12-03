@@ -76,12 +76,12 @@
               </a>
             </li>
             <li class="header-nav__item">
-              <a href="" class="header-nav__item-link header-nav__item-link_active">
+              <a href="" class="header-nav__item-link">
                 Клиентские базы
               </a>
             </li>
             <li class="header-nav__item">
-              <a href="" class="header-nav__item-link">
+              <a href="" class="header-nav__item-link header-nav__item-link_active">
                 Номера компаний
               </a>
             </li>
@@ -108,15 +108,15 @@
           Номера компаний
         </h2>
         <div class="numbers-company__buttons">
-          <buttion class="btn-reset numbers-company__btn numbers-company__btn_active">
+          <buttion class="btn-reset numbers-company__btn numbers-company__btn-std numbers-company__btn_active">
             Стандартная выборка
           </buttion>
-          <buttion class="btn-reset numbers-company__btn">
+          <buttion class="btn-reset numbers-company__btn numbers-company__btn-extd">
             Расширенная выборка
           </buttion>
         </div>
         <form action="" class="numbers-company__form__stdr">
-          <div class="numbers-company__form__content">
+          <div class="numbers-company__form__content numbers-company__form__content__stdr">
             <div class="numbers-company__form__col">
               <div class="numbers-company__form__block__title">
                 <span class="numbers-company__form__num">1</span>
@@ -895,7 +895,80 @@
                 </div>
               </div>
             </div>
+            <div class="numbers-company__form__filter">
+              <div class="numbers-company__form__block__title">
+                <span class="numbers-company__form__num">3</span>
+                <strong class="numbers-company__form__title">
+                  Фильтр
+                </strong>
+              </div>
+              <div class="numbers-company__form__filter__content">
+                <div class="numbers-company__form__filter__col">
+                  <div class="numbers-company__form__filter__info">
+                    <div class="numbers-company__form__filter__info__wrap">
+                      <label for="switch-email" class="numbers-company__form__filter__label">Email</label>
+                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-email"></div>
+                    </div>
+                    <p class="numbers-company__form__filter__desc">
+                      В базу будут включены только предприятия с e-mail
+                    </p>
+                  </div>
+                  <div class="numbers-company__form__filter__info">
+                    <div class="numbers-company__form__filter__info__wrap">
+                      <label for="switch-phone" class="numbers-company__form__filter__label">Телефоны</label>
+                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-phone"></div>
+                    </div>
+                    <p class="numbers-company__form__filter__desc">
+                      В базу будут включены только предприятия с телефонами
+                    </p>
+                  </div>
+                </div>
+                <div class="numbers-company__form__filter__col">
+                  <div class="numbers-company__form__filter__info">
+                    <div class="numbers-company__form__filter__info__wrap">
+                      <label for="switch-mobPhone" class="numbers-company__form__filter__label">Мобильные телефоны</label>
+                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-mobPhone"></div>
+                    </div>
+                    <p class="numbers-company__form__filter__desc">
+                      В базу будут включены только предприятия с мобильными телефонам
+                    </p>
+                  </div>
+                  <div class="numbers-company__form__filter__info">
+                    <div class="numbers-company__form__filter__info__wrap">
+                      <label for="switch-fil" class="numbers-company__form__filter__label">Без филиалов</label>
+                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-fil"></div>
+                    </div>
+                    <p class="numbers-company__form__filter__desc">
+                      В базу не будут включены филиалы предприятий
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="numbers-company__form__filter__order">
+                <div class="numbers-company__form__filter__order__count">
+                  <div class="numbers-company__form__filter__order__count-contacts numbers-company__form__filter__order__count__text">
+                    Количество контактов:&#32;
+                    <strong class="numbers-company__form__filter__order__count_strong"></strong>
+                  </div>
+                  <div class="numbers-company__form__filter__order__count-bases numbers-company__form__filter__order__count__text">
+                    Стоимость базы:&#32;
+                    <strong class="numbers-company__form__filter__order__count_strong"></strong>
+                  </div>
+                </div>
+                <div class="numbers-company__form__filter__order__buttons">
+                  <button class="btn-reset numbers-company__form__filter__order__btn numbers-company__form__filter__order__btn_green">
+                    Купить все
+                  </button>
+                  <button class="btn-reset numbers-company__form__filter__order__btn numbers-company__form__filter__order__btn_blue">
+                    Купить пробник (1000 контактов за 400 &#8381;)
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
+        </form>
+        <form action="" class="numbers-company__form__extd">
+          
         </form>
       </div>
     </section>
