@@ -14,6 +14,11 @@ $('.numbers-company__btn').on('click', function() {
 	}  else {
 		$('.numbers-company__form__stdr').hide(200)
 	}
+		if($('.numbers-company__btn-extd').hasClass('numbers-company__btn_active')) {
+			$('.numbers-company__form__extd').show(200)
+	}  else {
+		$('.numbers-company__form__extd').hide(200)
+}
 });
 
 $('.numbers-company__form__box__sub').fadeOut();

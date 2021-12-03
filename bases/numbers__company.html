@@ -116,7 +116,7 @@
           </buttion>
         </div>
         <form action="" class="numbers-company__form__stdr">
-          <div class="numbers-company__form__content numbers-company__form__content__stdr">
+          <div class="numbers-company__form__content">
             <div class="numbers-company__form__col">
               <div class="numbers-company__form__block__title">
                 <span class="numbers-company__form__num">1</span>
@@ -895,80 +895,456 @@
                 </div>
               </div>
             </div>
-            <div class="numbers-company__form__filter">
-              <div class="numbers-company__form__block__title">
-                <span class="numbers-company__form__num">3</span>
-                <strong class="numbers-company__form__title">
-                  Фильтр
-                </strong>
-              </div>
-              <div class="numbers-company__form__filter__content">
-                <div class="numbers-company__form__filter__col">
-                  <div class="numbers-company__form__filter__info">
-                    <div class="numbers-company__form__filter__info__wrap">
-                      <label for="switch-email" class="numbers-company__form__filter__label">Email</label>
-                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-email"></div>
-                    </div>
-                    <p class="numbers-company__form__filter__desc">
-                      В базу будут включены только предприятия с e-mail
-                    </p>
+          </div>
+          <div class="numbers-company__form__filter">
+            <div class="numbers-company__form__block__title">
+              <span class="numbers-company__form__num">3</span>
+              <strong class="numbers-company__form__title">
+                Фильтр
+              </strong>
+            </div>
+            <div class="numbers-company__form__filter__content">
+              <div class="numbers-company__form__filter__col">
+                <div class="numbers-company__form__filter__info">
+                  <div class="numbers-company__form__filter__info__wrap">
+                    <label for="switch-email" class="numbers-company__form__filter__label">Email</label>
+                    <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-email"></div>
                   </div>
-                  <div class="numbers-company__form__filter__info">
-                    <div class="numbers-company__form__filter__info__wrap">
-                      <label for="switch-phone" class="numbers-company__form__filter__label">Телефоны</label>
-                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-phone"></div>
-                    </div>
-                    <p class="numbers-company__form__filter__desc">
-                      В базу будут включены только предприятия с телефонами
-                    </p>
-                  </div>
+                  <p class="numbers-company__form__filter__desc">
+                    В базу будут включены только предприятия с e-mail
+                  </p>
                 </div>
-                <div class="numbers-company__form__filter__col">
-                  <div class="numbers-company__form__filter__info">
-                    <div class="numbers-company__form__filter__info__wrap">
-                      <label for="switch-mobPhone" class="numbers-company__form__filter__label">Мобильные телефоны</label>
-                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-mobPhone"></div>
-                    </div>
-                    <p class="numbers-company__form__filter__desc">
-                      В базу будут включены только предприятия с мобильными телефонам
-                    </p>
+                <div class="numbers-company__form__filter__info">
+                  <div class="numbers-company__form__filter__info__wrap">
+                    <label for="switch-phone" class="numbers-company__form__filter__label">Телефоны</label>
+                    <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-phone"></div>
                   </div>
-                  <div class="numbers-company__form__filter__info">
-                    <div class="numbers-company__form__filter__info__wrap">
-                      <label for="switch-fil" class="numbers-company__form__filter__label">Без филиалов</label>
-                      <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-fil"></div>
-                    </div>
-                    <p class="numbers-company__form__filter__desc">
-                      В базу не будут включены филиалы предприятий
-                    </p>
-                  </div>
+                  <p class="numbers-company__form__filter__desc">
+                    В базу будут включены только предприятия с телефонами
+                  </p>
                 </div>
               </div>
-              <div class="numbers-company__form__filter__order">
-                <div class="numbers-company__form__filter__order__count">
-                  <div class="numbers-company__form__filter__order__count-contacts numbers-company__form__filter__order__count__text">
-                    Количество контактов:&#32;
-                    <strong class="numbers-company__form__filter__order__count_strong"></strong>
+              <div class="numbers-company__form__filter__col">
+                <div class="numbers-company__form__filter__info">
+                  <div class="numbers-company__form__filter__info__wrap">
+                    <label for="switch-mobPhone" class="numbers-company__form__filter__label">Мобильные телефоны</label>
+                    <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-mobPhone"></div>
                   </div>
-                  <div class="numbers-company__form__filter__order__count-bases numbers-company__form__filter__order__count__text">
-                    Стоимость базы:&#32;
-                    <strong class="numbers-company__form__filter__order__count_strong"></strong>
+                  <p class="numbers-company__form__filter__desc">
+                    В базу будут включены только предприятия с мобильными телефонам
+                  </p>
+                </div>
+                <div class="numbers-company__form__filter__info">
+                  <div class="numbers-company__form__filter__info__wrap">
+                    <label for="switch-fil" class="numbers-company__form__filter__label">Без филиалов</label>
+                    <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-fil"></div>
                   </div>
+                  <p class="numbers-company__form__filter__desc">
+                    В базу не будут включены филиалы предприятий
+                  </p>
                 </div>
-                <div class="numbers-company__form__filter__order__buttons">
-                  <button class="btn-reset numbers-company__form__filter__order__btn numbers-company__form__filter__order__btn_green">
-                    Купить все
-                  </button>
-                  <button class="btn-reset numbers-company__form__filter__order__btn numbers-company__form__filter__order__btn_blue">
-                    Купить пробник (1000 контактов за 400 &#8381;)
-                  </button>
+              </div>
+            </div>
+            <div class="numbers-company__form__filter__order">
+              <div class="numbers-company__form__filter__order__count">
+                <div class="numbers-company__form__filter__order__count-contacts numbers-company__form__filter__order__count__text">
+                  Количество контактов:&#32;
+                  <strong class="numbers-company__form__filter__order__count_strong"></strong>
                 </div>
+                <div class="numbers-company__form__filter__order__count-bases numbers-company__form__filter__order__count__text">
+                  Стоимость базы:&#32;
+                  <strong class="numbers-company__form__filter__order__count_strong"></strong>
+                </div>
+              </div>
+              <div class="numbers-company__form__filter__order__buttons">
+                <button class="btn-reset numbers-company__form__filter__order__btn numbers-company__form__filter__order__btn_green">
+                  Купить все
+                </button>
+                <button class="btn-reset numbers-company__form__filter__order__btn numbers-company__form__filter__order__btn_blue">
+                  Купить пробник (1000 контактов за 400 &#8381;)
+                </button>
               </div>
             </div>
           </div>
         </form>
         <form action="" class="numbers-company__form__extd">
-          
+          <div class="numbers-company__form__block__title">
+            <span class="numbers-company__form__num">1</span>
+            <strong class="numbers-company__form__title">
+              Сфера деятельности
+            </strong>
+          </div>
+          <div class="numbers-company__form__content">
+            <div class="numbers-company__form__col">
+              <div class="numbers-company__form__view-all">
+                <p class="numbers-company__form__view-all__text numbers-company__form__extd__view-all__text">
+                  Отрасли
+                </p>
+                <button class="btn-reset numbers-company__form__btn__view-all">
+                  Выбрать все
+                </button>
+              </div>
+              <div class="numbers-company__form__all-item">
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Здравохранение" id="OTR-1" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-1" class="form__label numbers-company__form__label">Здравохранение</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Образование" id="OTR-2" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-2" class="form__label numbers-company__form__label">Образование</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Культура" id="OTR-3" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-3" class="form__label numbers-company__form__label">Культура</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Госуправление" id="OTR-4" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-4" class="form__label numbers-company__form__label">Госуправление</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Объединения" id="OTR-5" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-5" class="form__label numbers-company__form__label">Объединения</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Услуги" id="OTR-6" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-6" class="form__label numbers-company__form__label">Услуги</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Здравохранение" id="OTR-7" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-7" class="form__label numbers-company__form__label">Здравохранение</label>
+                    <div class="numbers-company__form__box__sub"></div>
+                  </div>
+                </div>
+                <div class="numbers-company__form__item">
+                  <div class="numbers-company__form__item__box">
+                    <span class="numbers-company__form__item__img"></span>
+                    <input type="checkbox" name="Торговля" id="OTR-8" class="form__checkbox numbers-company__form__checkbox">
+                    <label for="OTR-8" class="form__label numbers-company__form__label">Торговля</label>
+                    <div class="numbers-company__form__box__sub">
+                      <input type="checkbox" name="Автотранспорт и ГСМ" id="OTR-8-ATR" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="OTR-8-ATR" class="form__label numbers-company__form__label">Автотранспорт и ГСМ</label>
+                      <input type="checkbox" name="Продукты питания" id="OTR-8-PRDP" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="OTR-8-PRDP" class="form__label numbers-company__form__label">Продукты питания</label>
+                      <input type="checkbox" name="Промтовары" id="OTR-8-PRMT" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="OTR-8-PRMT" class="form__label numbers-company__form__label">Промтовары</label>
+                      <input type="checkbox" name="Прочая торговля" id="OTR-8-PRCHT" class="form__checkbox numbers-company__form__checkbox">
+                      <label for="OTR-8-PRCHT" class="form__label numbers-company__form__label">Прочая торговля</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="numbers-company__form__col">
+              <h4 class="numbers-company__form__extd__title">
+                Виды деятельности (ОКВЭД)
+              </h4>
+              <input type="search" name="Поиск" id="search-OKW" placeholder="Введите код ОКВ" class="numbers-company__form__input-search numbers-company__form__extd__input-search">
+              <div class="numbers-company__form__extd__search-okw__filter">
+                <label for="switch-okw" class="numbers-company__form__filter__label numbers-company__form__extd__filter__label">Искать только в основных видах деятельности</label>
+                <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-okw"></div>
+              </div>
+              <h4 class="numbers-company__form__extd__title">
+                Полученные лицензии
+              </h4>
+              <input type="search" name="Поиск" id="search-lice" placeholder="Введите код лицензии" class="numbers-company__form__input-search numbers-company__form__extd__input-search">
+            </div>
+          </div>
+          <div class="numbers-company__form__address">
+            <div class="numbers-company__form__block__title">
+              <span class="numbers-company__form__num">2</span>
+              <strong class="numbers-company__form__title">
+                Адресс
+              </strong>
+            </div>
+            <button class="btn-reset numbers-company__form__address__choose-all">
+              Выбрать все регионы
+            </button>
+            <div class="numbers-company__form__address__selects">
+              <select name="regions" id="regions" class="select-reset clients-bases__select clients-bases__form__extd__select">
+                <option value="Все регионы">Выберите регион</option>
+                <option value="Адыгея">Республика Адыгея</option>
+                <option value="Алтай">Республика Алтай </option>
+                <option value="Башкортостан">Республика Башкортостан </option>
+                <option value="Бурятия">Республика Бурятия </option>
+                <option value="Дагестан">Республика Дагестан </option>
+                <option value="Ингушетия">Республика Ингушетия </option>
+                <option value="Кабардино-Балкария">Кабардино-Балкарская Республика</option>
+                <option value="Калмыкия">Республика Калмыкия </option>
+                <option value="Карачаево-Черкессия">Карачаево-Черкесская Республика</option>
+                <option value="Карелия">Республика Карелия </option>
+                <option value="Коми">Республика Коми </option>
+                <option value="Марий Эл">Республика Марий Эл </option>
+                <option value="Мордовия">Республика Мордовия</option>
+                <option value="Саха (Якутия)">Республика Саха (Якутия) </option>
+                <option value="Северная Осетия - Алания">Республика Северная Осетия - Алания </option>
+                <option value="Татарстан">Республика Татарстан</option>
+                <option value="Тыва">Республика Тыва </option>
+                <option value="Удмуртская">Удмуртская Республика </option>
+                <option value="Хакасия">Республика Хакасия </option>
+                <option value="Чеченская">Чеченская Республика</option>
+                <option value="Чувашская Республика">Чувашская Республика</option>
+                <option value="Алтайский край">Алтайский край</option>
+                <option value="Забайкальский край">Забайкальский край</option>
+                <option value="Камчатский край">Камчатский край</option>
+                <option value="Краснодарский край">Краснодарский край</option>
+                <option value="Красноярский край">Красноярский край</option>
+                <option value="Пермский край">Пермский край</option>
+                <option value="Приморский край">Приморский край</option>
+                <option value="Ставропольский край">Ставропольский край</option>
+                <option value="Хабаровский край">Хабаровский край</option>
+                <option value="Амурская область">Амурская область</option>
+                <option value="Архангельская область">Архангельская область</option>
+                <option value="Астраханская область">Астраханская область</option>
+                <option value="Белгородская область">Белгородская область</option>
+                <option value="Брянская область">Брянская область </option>
+                <option value="Владимирская область">Владимирская область </option>
+                <option value="Волгоградская область">Волгоградская область </option>
+                <option value="Вологодская область">Вологодская область </option>
+                <option value="Воронежская область">Воронежская область </option>
+                <option value="Ивановская область">Ивановская область </option>
+                <option value="Иркутская область">Иркутская область </option>
+                <option value="Калининградская область">Калининградская область</option>
+                <option value="Калужская область">Калужская область </option>
+                <option value="Кемеровская область">Кемеровская область </option>
+                <option value="Кировская область">Кировская область </option>
+                <option value="Костромская область">Костромская область </option>
+                <option value="Курганская область">Курганская область </option>
+                <option value="Курская область">Курская область </option>
+                <option value="Ленинградская область">Ленинградская область </option>
+                <option value="Липецкая область">Липецкая область </option>
+                <option value="Магаданская область">Магаданская область</option>
+                <option value="Московская область">Московская область </option>
+                <option value="Мурманская область">Мурманская область </option>
+                <option value="Нижегородская область">Нижегородская область </option>
+                <option value="Новгородская область">Новгородская область </option>
+                <option value="Новосибирская область">Новосибирская область </option>
+                <option value="Омская область">Омская область</option>
+                <option value="Оренбургская область">Оренбургская область </option>
+                <option value="Орловская область">Орловская область </option>
+                <option value="Пензенская область">Пензенская область </option>
+                <option value="Псковская область">Псковская область </option>
+                <option value="Ростовская область">Ростовская область </option>
+                <option value="Рязанская область">Рязанская область </option>
+                <option value="Самарская область">Самарская область </option>
+                <option value="Саратовская область">Саратовская область </option>
+                <option value="Сахалинская область">Сахалинская область </option>
+                <option value="Свердловская область">Свердловская область </option>
+                <option value="Смоленская область">Смоленская область </option>
+                <option value="Тамбовская область">Тамбовская область </option>
+                <option value="Тверская область">Тверская область </option>
+                <option value="Томская область">Томская область </option>
+                <option value="Тульская область">Тульская область</option>
+                <option value="Тюменская область">Тюменская область </option>
+                <option value="Ульяновская область">Ульяновская область </option>
+                <option value="Челябинская область">Челябинская область </option>
+                <option value="Ярославская область">Ярославская область</option>
+                <option value="Еврейская АО">Еврейская АО</option>
+                <option value="Ненецкий АО">Ненецкий АО</option>
+                <option value="Ханты-Мансийский АО">Ханты-Мансийский АО</option>
+                <option value="Чукотский АО">Чукотский АО</option>
+                <option value="Ямало-Ненецкий АО">Ямало-Ненецкий АО</option>
+              </select>
+              <select name="cities" id="cities" class="select-reset clients-bases__select clients-bases__form__extd__select">
+                <option value="Выберите города">Выберите города</option>
+                <option value="Москва">Москва</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+              </select>
+            </div>
+          </div>
+          <div class="numbers-company__form__extd__lists">
+            <div class="numbers-company__form__block__title">
+              <span class="numbers-company__form__num">3</span>
+              <strong class="numbers-company__form__title">
+                Списки
+              </strong>
+            </div>
+            <ul class="numbers-company__form__extd__list">
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Аккредитованные ИТ-организации" id="lists-item-1" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-1" class="form__label numbers-company__form__label">Аккредитованные ИТ-организации</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Реестр туроператоров" id="lists-item-2" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-2" class="form__label numbers-company__form__label">Реестр туроператоров</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Существенное влияние на отрасль" id="lists-item-3" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-3" class="form__label numbers-company__form__label">Существенное влияние на отрасль</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Банки" id="lists-item-4" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-4" class="form__label numbers-company__form__label">Банки</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Российские компании-эксперты" id="lists-item-5" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-5" class="form__label numbers-company__form__label">Российские компании-эксперты</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Члены СРО в области исзысканий и проектирования" id="lists-item-6" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-6" class="form__label numbers-company__form__label">Члены СРО в области исзысканий и проектирования</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Доля на рынке свыше 35%" id="lists-item-7" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-7" class="form__label numbers-company__form__label">Доля на рынке свыше 35%</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Системообразующие предприятия" id="lists-item-8" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-8" class="form__label numbers-company__form__label">Системообразующие предприятия</label>
+              </li>
+              <li class="numbers-company__form__extd__item">
+                <input type="checkbox" name="Члены СРО в области строительства" id="lists-item-9" class="form__checkbox numbers-company__form__checkbox">
+                <label for="lists-item-9" class="form__label numbers-company__form__label">Члены СРО в области строительства</label>
+              </li>
+            </ul>
+            <div class="numbers-company__form__extd__lists__fltr">
+              <label for="switch-btn-lists" class="clients-bases__label">Входит в каждый выбранные список</label>
+              <div class="btn-reset switch-btn clients-bases__switch-btn" id="switch-btn-lists"></div>
+              <label for="switch-btn-lists" class="clients-bases__label">Отсутствует в каждом из выбранных списков</label>
+            </div>
+          </div>
+          <div class="numbers-company__form__block__title">
+            <span class="numbers-company__form__num">4</span>
+            <strong class="numbers-company__form__title">
+              Деловая активность
+            </strong>
+          </div>
+          <div class="numbers-company__form__content numbers-company__form__extd__busn-activity">
+            <div class="numbers-company__form__col numbers-company__form__extd__busn-activity__col">
+              <div class="numbers-company__form__extd__busn-activity__box">
+                <div class="numbers-company__form__extd__busn-activity__wrap">
+                  <label for="switch-activity" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Активность в течении года</label>
+                  <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-activity"></div>
+                </div>
+                <p class="numbers-company__form__extd__busn-activity__desc">
+                  В список попадут только компании, которые: участвовали в арбитражных делах; Участвовали в госзакупках или размещали их; Получали лицензию; Заключали договоры залога движимого имущества; Заключали договоры лизинга
+                </p>
+              </div>
+              <div class="numbers-company__form__extd__busn-activity__box">
+                <div class="numbers-company__form__extd__busn-activity__wrap">
+                  <label for="switch-lessee" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Лизингополучатель</label>
+                  <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-lessee"></div>
+                </div>
+                <p class="numbers-company__form__extd__busn-activity__desc">
+                  Действующие договоры, истекшие или прекращённые
+                </p>
+              </div>
+            </div>
+            <div class="numbers-company__form__col numbers-company__form__extd__busn-activity__col">	
+              <div class="numbers-company__form__extd__busn-activity__wrap">
+                <label for="switch-participant" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Участвовали в закупках на сумму (&#8381;)</label>
+                <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-participant"></div>
+              </div>
+              <div class="numbers-company__form__extd__busn-activity__wrap">
+                <input type="number" name="От" id="busn-activity-from" class="numbers-company__form__extd__busn-activity__input" placeholder="От">
+                <div class="numbers-company__form__extd__busn-activity__marup">
+                  &#8194;&#8212;&#8194;
+                </div>
+                <input type="number" name="До" id="busn-activity-before" class="numbers-company__form__extd__busn-activity__input" placeholder="До">	
+              </div>
+              <div class="numbers-company__form__extd__busn-activity__wrap">
+                <label for="switch-memb-cro" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Члены СРО</label>
+                <div class="btn-reset switch-btn numbers-company__switch-btn" id="switch-memb-cro"></div>
+              </div>
+              <div class="numbers-company__form__extd__busn-activity__wrap numbers-company__form__extd__busn-activity__wrap_radio">
+                <div class="numbers-company__form__extd__busn-activity__box_radio">
+                  <input type="radio" name="radio" value="В области строительства" id="radio-construction">
+                  <label for="radio-construction" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">В области строительства</label>
+                </div>
+                <div class="numbers-company__form__extd__busn-activity__box_radio">
+                  <input type="radio" name="radio" value="В области изысканий и проектирования" id="radio-designing">
+                  <label for="radio-designing" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">В области изысканий и проектирования</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="numbers-company__form__block__title">
+            <span class="numbers-company__form__num">5</span>
+            <strong class="numbers-company__form__title">
+              Основные сведенья
+            </strong>
+          </div>
+          <div class="numbers-company__form__extd__basic-information">
+            <div class="numbers-company__form__content">
+              <div class="numbers-company__form__col numbers-company__form__extd__basic-information__col">
+                <div class="numbers-company__form__extd__basic-information__wrap">
+                  <label for="basic-information-status" class="numbers-company__form__filter__label numbers-company__form__extd__basic-information__label">Статус</label>
+                  <select name="status" id="basic-information-status" class="select-reset clients-bases__select clients-bases__form__extd__select clients-bases__form__extd__basic-information__select">
+                    <option value="Действующее">Действующее</option>
+                  </select>
+                </div>
+                <div class="numbers-company__form__extd__basic-information__wrap">
+                  <label for="legal__form" class="numbers-company__form__filter__label numbers-company__form__extd__basic-information__label">Правовая форма</label>
+                  <input type="text" name="legal__form" id="legal__form" placeholder="ООО, ИП, АО, ПАО, ГСК, ТСН и т.п" class="numbers-company__form__input-text">
+                </div>
+              </div>
+              <div class="numbers-company__form__col numbers-company__form__extd__basic-information__col">
+                <div class="numbers-company__form__extd__basic-information__wrap">
+                  <label for="catg-smallBuiss" class="numbers-company__form__filter__label numbers-company__form__extd__basic-information__label">Категория малого бизнеса</label>
+                  <select name="category" id="catg-smallBuiss" class="select-reset clients-bases__select clients-bases__form__extd__select clients-bases__form__extd__basic-information__select">
+                    <option value="Не входит в реестр МСП">Не входит в реестр МСП</option>
+                  </select>
+                </div>
+                <div class="numbers-company__form__extd__basic-information__wrap numbers-company__form__extd__basic-information__wrap_noStyle">
+                  <label for="number-worker" class="numbers-company__form__filter__label numbers-company__form__extd__basic-information__label">Количество сотрудников</label>
+                </div>
+                <div class="numbers-company__form__extd__basic-information__wrap numbers-company__form__extd__basic-information__wrap_flex">
+                  <input type="number" name="От" id="number-worker number-worker-1" class="numbers-company__form__extd__busn-activity__input" placeholder="От">
+                  <div class="numbers-company__form__extd__busn-activity__marup">
+                    &#8194;&#8212;&#8194;
+                  </div>
+                  <input type="number" name="До" id="number-worker number-worker-2" class="numbers-company__form__extd__busn-activity__input" placeholder="До">	
+                </div>
+              </div>
+            </div>
+            <div class="numbers-company__form__extd__basic-information__box">
+              <div class="numbers-company__form__extd__basic-information__inner">
+                <input type="radio" name="radio" value="Дата регистрации" id="radio-date-reg">
+                <label for="radio-date-reg" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Дата регистрации</label>
+                <input type="number" name="С" id="number-dateReg-1" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__busn-activity__input_small" placeholder="С">
+                <div class="numbers-company__form__extd__busn-activity__marup">
+                  &#8194;&#8212;&#8194;
+                </div>
+                <input type="number" name="По" id="number-dateReg-2" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__busn-activity__input_small" placeholder="По">
+              </div>
+              <div class="numbers-company__form__extd__basic-information__inner numbers-company__form__extd__basic-information__inner_marup">
+                <input type="radio" name="radio" value="Возраст компании" id="radio-ageComp">
+                <label for="radio-ageComp" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Возраст компании</label>
+                <a href="javascript:void(0);" class="numbers-company__form__extd__basic-information__link numbers-company__form__extd__basic-information__link_active">
+                  Старше
+                </a>
+                <a href="javascript:void(0);" class="numbers-company__form__extd__basic-information__link">
+                  Младше
+                </a>
+                <input type="number" name="Месяцев" id="number-ageComp" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__busn-activity__input_small" placeholder="По">
+              </div>
+            </div>
+          </div>
         </form>
       </div>
     </section>
