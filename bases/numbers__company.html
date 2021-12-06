@@ -1326,11 +1326,11 @@
               <div class="numbers-company__form__extd__basic-information__inner">
                 <input type="radio" name="radio" value="Дата регистрации" id="radio-date-reg">
                 <label for="radio-date-reg" class="numbers-company__form__filter__label numbers-company__form__extd__busn-activity__label">Дата регистрации</label>
-                <input type="number" name="С" id="number-dateReg-1" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__busn-activity__input_small" placeholder="С">
+                <input type="number" name="С" id="number-dateReg-1" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__basic-information__input_small" placeholder="С">
                 <div class="numbers-company__form__extd__busn-activity__marup">
                   &#8194;&#8212;&#8194;
                 </div>
-                <input type="number" name="По" id="number-dateReg-2" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__busn-activity__input_small" placeholder="По">
+                <input type="number" name="По" id="number-dateReg-2" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__basic-information__input_small" placeholder="По">
               </div>
               <div class="numbers-company__form__extd__basic-information__inner numbers-company__form__extd__basic-information__inner_marup">
                 <input type="radio" name="radio" value="Возраст компании" id="radio-ageComp">
@@ -1341,10 +1341,78 @@
                 <a href="javascript:void(0);" class="numbers-company__form__extd__basic-information__link">
                   Младше
                 </a>
-                <input type="number" name="Месяцев" id="number-ageComp" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__busn-activity__input_small" placeholder="По">
+                <input type="number" name="Месяцев" id="number-ageComp" class="numbers-company__form__extd__busn-activity__input numbers-company__form__extd__basic-information__input_small" placeholder="По">
               </div>
             </div>
           </div>
+          <div class="numbers-company__form__extd__finance">
+            <div class="numbers-company__form__block__title">
+              <span class="numbers-company__form__num">6</span>
+              <strong class="numbers-company__form__title">
+                Финансы
+              </strong>
+            </div>
+            <div class="numbers-company__form__extd__finance__content">
+              <div class="numbers-company__form__col numbers-company__form__extd__finance__col">
+                <div class="numbers-company__form__extd__finance__label__wrap">
+                  <label for="proceeds-1" class="numbers-company__form__filter__label numbers-company__form__extd__finance__label">
+                    Выручка (&#8381;)
+                  </label>
+                </div>
+                <div class="numbers-company__form__extd__finance__wrap">
+                  <input type="number" name="ОТ" id="proceeds-1" class="numbers-company__form__extd__busn-activity__input" placeholder="От">
+                  <div class="numbers-company__form__extd__busn-activity__marup">
+                     — 
+                  </div>
+                  <input type="number" name="До" id="proceeds-2" class="numbers-company__form__extd__busn-activity__input" placeholder="До">
+                </div>
+                <div class="numbers-company__form__extd__finance__label__wrap">
+                  <label for="balance-1" class="numbers-company__form__filter__label numbers-company__form__extd__finance__label">
+                    Баланс (&#8381;)
+                  </label>
+                </div>
+                <div class="numbers-company__form__extd__finance__wrap">
+                  <input type="number" name="ОТ" id="balance-1" class="numbers-company__form__extd__busn-activity__input" placeholder="От">
+                  <div class="numbers-company__form__extd__busn-activity__marup">
+                     — 
+                  </div>
+                  <input type="number" name="До" id="balance-2" class="numbers-company__form__extd__busn-activity__input" placeholder="До">
+                </div>
+              </div>
+              <div class="numbers-company__form__col numbers-company__form__extd__finance__col">
+                <div class="numbers-company__form__extd__finance__label__wrap">
+                  <label for="profit-1" class="numbers-company__form__filter__label numbers-company__form__extd__finance__label">
+                    Чистота прибыль/убыток (&#8381;)
+                  </label>
+                </div>
+                <div class="numbers-company__form__extd__finance__wrap numbers-company__form__extd__finance__wrap_margin-small">
+                  <input type="number" name="ОТ" id="profit-1" class="numbers-company__form__extd__busn-activity__input" placeholder="От">
+                  <div class="numbers-company__form__extd__busn-activity__marup">
+                     — 
+                  </div>
+                  <input type="number" name="До" id="profit-2" class="numbers-company__form__extd__busn-activity__input" placeholder="До">
+                </div>
+                <p class="numbers-company__form__extd__finance__desc">
+                  Поддерживает отрицательные значения
+                </p>
+                <div class="numbers-company__form__extd__finance__label__wrap">
+                  <label for="authorizCapital-1" class="numbers-company__form__filter__label numbers-company__form__extd__finance__label">
+                    Уставной капитал (&#8381;)
+                  </label>
+                </div>
+                <div class="numbers-company__form__extd__finance__wrap">
+                  <input type="number" name="ОТ" id="authorizCapital-1" class="numbers-company__form__extd__busn-activity__input" placeholder="От">
+                  <div class="numbers-company__form__extd__busn-activity__marup">
+                     — 
+                  </div>
+                  <input type="number" name="До" id="authorizCapital-2" class="numbers-company__form__extd__busn-activity__input" placeholder="До">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-reset numbers-company__form__extd__btn numbers-company__form__extd__btn_position">
+            Заказать
+          </button>
         </form>
       </div>
     </section>
